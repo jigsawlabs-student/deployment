@@ -5,4 +5,4 @@ COPY ./iris-model.model /deploy/
 WORKDIR /deploy/
 RUN pip install -r requirements.txt
 EXPOSE 80
-ENTRYPOINT ["python", "app.py"]
+CMD ["python", "app.py"]

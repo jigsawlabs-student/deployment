@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 def train_model():
     if not os.path.isfile('iris-model.model'):
+        print('hello')
         train_model()
 
 
